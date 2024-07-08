@@ -54,7 +54,7 @@ function start(client) {
                         }
                         else {
                             parseJson.users[i].order = "2";
-                            client.sendText(message.from, "Invalid response, reply with a number between 1 and 4");
+                            client.sendText(message.from, "Invalid response, reply with a number between 1 and 5");
                         }
                     }
                     else if (parseJson.users[i].order === "3") {
