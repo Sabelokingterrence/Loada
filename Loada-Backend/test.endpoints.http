@@ -1,0 +1,39 @@
+GET http://localhost:3000/collectors
+
+POST http://localhost:3000/add-collector
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "phone": "1234567890"
+}
+
+POST http://localhost:3000/add-item
+Content-Type: application/json
+
+{
+    "name": "Item 1",
+    "description": "Description of Item 1"
+}
+
+POST http://localhost:3000/add-pickup
+Content-Type: application/json
+
+{
+    "collectorId": "<collector_id>",
+    "itemId": "<item_id>",
+    "receiver": {
+        "name": "Receiver Name",
+        "phone": "Receiver Phone"
+    },
+    "trackingNumber": "1234567890",
+    "deliveryDay": "Monday"
+}
+
+POST http://localhost:3000/update-pickup
+Content-Type: application/json
+
+{
+    "trackingNumber": "1234567890",
+    "collectedAt": "2024-05-19T12:00:00Z"
+}
