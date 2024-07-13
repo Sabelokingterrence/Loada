@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loada Registration</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Company Registration</h1>
+    <form action="Registration/register.php" method="POST">
+        <h2>Company Info</h2>
+        
+        <label for="company_name">Company Name:</label>
+        <input type="text" id="company_name" name="company_name" required>
+
+        <h2>Bank Details for Debit Order</h2>
+        <label for="bank_name">Bank Name:</label>
+        <input type="text" id="bank_name" name="bank_name" required>
+        <label for="account_number">Account Number:</label>
+        <input type="text" id="account_number" name="account_number" required>
+        <label for="branch_code">Branch Code:</label>
+        <input type="text" id="branch_code" name="branch_code" required>
+
+        <h2>Register Trucks</h2>
+        <div id="trucks">
+            <div class="truck">
+                <label for="truck_1">Truck 1 Registration Number:</label>
+                <input type="text" id="truck_1" name="trucks[]" required>
+            </div>
+        </div>
+        <button type="button" id="addTruck">Add another truck</button>
+
+        <h2>Tracker Link</h2>
+        <label for="tracker_link">Tracker URL:</label>
+        <input type="url" id="tracker_link" name="tracker_link" required>
+
+        <button type="submit">Register</button>
+    </form>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
