@@ -1,42 +1,6 @@
-2024/06/13-19:08:33.146 4b55 Reusing MANIFEST /home/sabelo/Loada/_IGNORE_chatpay/Default/Local Storage/leveldb/MANIFEST-000001
-2024/06/13-19:08:33.147 4b55 Recovering log #17
-2024/06/13-19:08:33.147 4b55 Reusing old log /home/sabelo/Loada/_IGNORE_chatpay/Default/Local Storage/leveldb/000017.log 
-2024/06/14-08:10:06.500 773c Level-0 table #21: started
-2024/06/14-08:10:06.833 773c Level-0 table #21: 13821 bytes OK
-2024/06/14-08:10:07.371 773c Delete type=0 #17
-2024/06/15-19:51:44.511 4b53 Level-0 table #23: started
-2024/06/15-19:51:45.090 4b53 Level-0 table #23: 12055 bytes OK
-2024/06/15-19:51:45.667 4b53 Delete type=0 #20
-2024/06/17-08:03:34.150 4b53 Level-0 table #25: started
-2024/06/17-08:03:34.498 4b53 Level-0 table #25: 12017 bytes OK
-2024/06/17-08:03:34.933 4b53 Delete type=0 #22
-2024/06/17-08:03:34.997 4b53 Compacting 4@0 + 1@1 files
-2024/06/17-08:03:35.522 4b53 Generated table #26@0: 25 keys, 2815 bytes
-2024/06/17-08:03:35.522 4b53 Compacted 4@0 + 1@1 files => 2815 bytes
-2024/06/17-08:03:35.906 4b53 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/06/17-08:03:35.906 4b53 Delete type=2 #25
-2024/06/17-08:03:35.906 4b53 Delete type=2 #16
-2024/06/17-08:03:35.906 4b53 Delete type=2 #21
-2024/06/17-08:03:35.906 4b53 Delete type=2 #23
-2024/06/17-08:03:35.906 4b53 Delete type=2 #18
-2024/06/17-21:24:11.917 4b53 Level-0 table #28: started
-2024/06/17-21:24:12.426 4b53 Level-0 table #28: 13127 bytes OK
-2024/06/17-21:24:12.921 4b53 Delete type=0 #24
-2024/06/18-22:05:52.762 3032 Level-0 table #30: started
-2024/06/18-22:05:53.263 3032 Level-0 table #30: 12248 bytes OK
-2024/06/18-22:05:53.724 3032 Delete type=0 #27
-2024/06/20-09:27:37.369 4b53 Level-0 table #32: started
-2024/06/20-09:27:37.713 4b53 Level-0 table #32: 12464 bytes OK
-2024/06/20-09:27:38.359 4b53 Delete type=0 #29
-2024/06/21-18:55:11.901 4b53 Level-0 table #34: started
-2024/06/21-18:55:12.278 4b53 Level-0 table #34: 12690 bytes OK
-2024/06/21-18:55:12.968 4b53 Delete type=0 #31
-2024/06/21-18:55:13.014 4b53 Compacting 4@0 + 1@1 files
-2024/06/21-18:55:13.588 4b53 Generated table #35@0: 26 keys, 2847 bytes
-2024/06/21-18:55:13.588 4b53 Compacted 4@0 + 1@1 files => 2847 bytes
-2024/06/21-18:55:13.939 4b53 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/06/21-18:55:13.939 4b53 Delete type=2 #32
-2024/06/21-18:55:13.939 4b53 Delete type=2 #26
-2024/06/21-18:55:13.939 4b53 Delete type=2 #28
-2024/06/21-18:55:13.939 4b53 Delete type=2 #34
-2024/06/21-18:55:13.939 4b53 Delete type=2 #30
+2024/07/28-18:29:03.307 3bd5 Reusing MANIFEST /home/sabelo/Loada/_IGNORE_chatpay/Default/Local Storage/leveldb/MANIFEST-000001
+2024/07/28-18:29:03.307 3bd5 Recovering log #33
+2024/07/28-18:29:03.307 3bd5 Reusing old log /home/sabelo/Loada/_IGNORE_chatpay/Default/Local Storage/leveldb/000033.log 
+2024/07/28-18:35:05.230 3bd5 Level-0 table #38: started
+2024/07/28-18:35:05.388 3bd5 Level-0 table #38: 16910 bytes OK
+2024/07/28-18:35:05.606 3bd5 Delete type=0 #33
