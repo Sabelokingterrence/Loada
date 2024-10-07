@@ -36,7 +36,7 @@ function start(client) {
                     else if (parseJson.users[i].order === "2") {
                         if (message.body === "1") {
                             parseJson.users[i].order = "1";
-                            client.sendText(message.from, "Please use the link below to register your company on the platform");
+                            client.sendText(message.from, "Please use the link below to register your company on the platform \n\nhttps://loada-platform.vercel.app");
                         }
                         else if (message.body === "2") {
                             // have a status flag that can be used to check order status
